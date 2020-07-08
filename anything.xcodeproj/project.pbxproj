@@ -15,6 +15,7 @@
 		7CB4008724B48149006BF6DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CB4008524B48149006BF6DF /* LaunchScreen.storyboard */; };
 		88790DD924B580C90058A913 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88790DD824B580C90058A913 /* MainViewController.swift */; };
 		88790DDB24B580E40058A913 /* DescOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88790DDA24B580E40058A913 /* DescOneViewController.swift */; };
+		88790DDD24B589EC0058A913 /* DescriptionFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88790DDC24B589EC0058A913 /* DescriptionFirstViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		7CB4008824B48149006BF6DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88790DD824B580C90058A913 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		88790DDA24B580E40058A913 /* DescOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescOneViewController.swift; sourceTree = "<group>"; };
+		88790DDC24B589EC0058A913 /* DescriptionFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionFirstViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				7CB4007C24B48146006BF6DF /* SceneDelegate.swift */,
 				7CB4007E24B48146006BF6DF /* ViewController.swift */,
 				7CB4008024B48146006BF6DF /* Main.storyboard */,
+				88790DDC24B589EC0058A913 /* DescriptionFirstViewController.swift */,
 				88790DD824B580C90058A913 /* MainViewController.swift */,
 				88790DDA24B580E40058A913 /* DescOneViewController.swift */,
 				7CB4008324B48149006BF6DF /* Assets.xcassets */,
@@ -148,6 +151,7 @@
 				7CB4007B24B48146006BF6DF /* AppDelegate.swift in Sources */,
 				88790DDB24B580E40058A913 /* DescOneViewController.swift in Sources */,
 				7CB4007D24B48146006BF6DF /* SceneDelegate.swift in Sources */,
+				88790DDD24B589EC0058A913 /* DescriptionFirstViewController.swift in Sources */,
 				88790DD924B580C90058A913 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
