@@ -23,7 +23,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="HVT-Mt-wB8" kind="show" id="SsG-nS-iXZ"/>
+                                    <segue destination="a6Q-Fc-j0c" kind="show" id="QfR-Jp-osg"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qW5-Fk-aKe">
@@ -46,22 +46,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1042.0289855072465" y="138.61607142857142"/>
-        </scene>
-        <!--Desc One View Controller-->
-        <scene sceneID="MXA-NW-IDJ">
-            <objects>
-                <viewController id="HVT-Mt-wB8" customClass="DescOneViewController" customModule="anything" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="BRP-xm-bZJ">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="Viw-Bj-Ggv"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="ZYH-PJ-xyb"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ouc-0I-RML" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1799" y="139"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="xUY-vS-H11">
@@ -140,6 +124,66 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T7R-68-3oi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1362" y="1130"/>
+        </scene>
+        <!--Description Second View Controller-->
+        <scene sceneID="7DM-oi-xk9">
+            <objects>
+                <viewController id="a6Q-Fc-j0c" customClass="DescriptionSecondViewController" customModule="anything" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="doX-0T-jdu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y2H-xq-kSC">
+                                <rect key="frame" x="0.0" y="140" width="414" height="1326"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KSC-tj-8QM">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello, my name is Aleksa" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zyl-F0-ngY">
+                                                <rect key="frame" x="113" y="1173" width="188" height="21"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="188" id="7XD-Ke-Uam"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="zyl-F0-ngY" secondAttribute="bottom" constant="306" id="Ae5-zR-SyX"/>
+                                            <constraint firstItem="zyl-F0-ngY" firstAttribute="centerX" secondItem="KSC-tj-8QM" secondAttribute="centerX" id="CJW-sE-qbO"/>
+                                            <constraint firstAttribute="height" constant="1500" id="mN2-9M-I68"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="KSC-tj-8QM" secondAttribute="trailing" id="0zQ-OB-VZu"/>
+                                    <constraint firstItem="KSC-tj-8QM" firstAttribute="leading" secondItem="4Ju-3c-IFZ" secondAttribute="leading" id="4XK-IE-UTQ"/>
+                                    <constraint firstAttribute="bottom" secondItem="KSC-tj-8QM" secondAttribute="bottom" id="JkX-Ml-Yye"/>
+                                    <constraint firstItem="KSC-tj-8QM" firstAttribute="trailing" secondItem="4Ju-3c-IFZ" secondAttribute="trailing" id="eh0-ke-BB1"/>
+                                    <constraint firstItem="KSC-tj-8QM" firstAttribute="top" secondItem="725-9Z-89e" secondAttribute="top" id="uhn-kQ-2bF"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="725-9Z-89e"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="4Ju-3c-IFZ"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Y2H-xq-kSC" firstAttribute="trailing" secondItem="tqg-t4-nyz" secondAttribute="trailing" id="2K7-fn-fl4"/>
+                            <constraint firstItem="Y2H-xq-kSC" firstAttribute="leading" secondItem="tqg-t4-nyz" secondAttribute="leading" id="cai-gH-mwB"/>
+                            <constraint firstItem="KSC-tj-8QM" firstAttribute="width" secondItem="doX-0T-jdu" secondAttribute="width" id="eR6-pk-Jij"/>
+                            <constraint firstItem="Y2H-xq-kSC" firstAttribute="top" secondItem="tqg-t4-nyz" secondAttribute="top" id="hJ9-xu-AlW"/>
+                            <constraint firstItem="Y2H-xq-kSC" firstAttribute="bottom" secondItem="tqg-t4-nyz" secondAttribute="bottom" id="uJI-U5-1Na"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="tqg-t4-nyz"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="UeC-9s-IrP"/>
+                    <size key="freeformSize" width="414" height="1500"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gHg-vd-6oW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2293" y="275"/>
         </scene>
     </scenes>
 </document>
