@@ -12,7 +12,7 @@ class DescriptionFirstViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "Vlad"
+//        title = "Влад"
 
         // Do any additional setup after loading the view.
     }
