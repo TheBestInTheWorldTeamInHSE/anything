@@ -97,30 +97,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Привет!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I6P-Hx-V51">
-                                <rect key="frame" x="20" y="93" width="203" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Привет!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.10000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="I6P-Hx-V51">
+                                <rect key="frame" x="20" y="85" width="202.33333333333334" height="60"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="50"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Я Саша, мне 15, живу Москве" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S0B-Jj-drD">
-                                <rect key="frame" x="20" y="161" width="322" height="118"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Я Саша, мне 15, живу в Москве" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.10000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="S0B-Jj-drD">
+                                <rect key="frame" x="20" y="161" width="322" height="98"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="41"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="подписывайся на мой инстагрм @hrulevaa✌️" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mdp-fi-NVa">
-                                <rect key="frame" x="20" y="767" width="340" height="86"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="подписывайся на мой инстагрм @hrulevaa✌️" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.10000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="Mdp-fi-NVa">
+                                <rect key="frame" x="20" y="790.66666666666663" width="340" height="62.333333333333371"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="26"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iaN-Ba-CdJ">
-                                <rect key="frame" x="20" y="287" width="362" height="472"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.10000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="iaN-Ba-CdJ">
+                                <rect key="frame" x="20" y="287" width="362" height="459.66666666666674"/>
                                 <string key="text">Год назад я начала учить Python. Написала игру "змейка", создала Telegram-бота. Недавно увлеклась создание iOS-прилодений на Swift. Люблю слушать музыку и смеяться над глупыми шутками</string>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="35"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -128,6 +124,20 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.36639713140000002" blue="0.50966234020000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="iX5-Sv-5xY" firstAttribute="bottom" secondItem="Mdp-fi-NVa" secondAttribute="bottom" constant="9" id="50q-OU-uMS"/>
+                            <constraint firstItem="S0B-Jj-drD" firstAttribute="leading" secondItem="iX5-Sv-5xY" secondAttribute="leading" constant="20" id="7XH-jg-mJx"/>
+                            <constraint firstItem="iaN-Ba-CdJ" firstAttribute="leading" secondItem="iX5-Sv-5xY" secondAttribute="leading" constant="20" id="DaQ-2Z-I5Y"/>
+                            <constraint firstItem="I6P-Hx-V51" firstAttribute="top" secondItem="iP2-YN-bHd" secondAttribute="top" constant="85" id="EZI-9U-8zl"/>
+                            <constraint firstItem="iX5-Sv-5xY" firstAttribute="trailing" secondItem="S0B-Jj-drD" secondAttribute="trailing" constant="72" id="Sv8-MI-Ij1"/>
+                            <constraint firstItem="Mdp-fi-NVa" firstAttribute="leading" secondItem="iX5-Sv-5xY" secondAttribute="leading" constant="20" id="TtG-dP-yAe"/>
+                            <constraint firstItem="S0B-Jj-drD" firstAttribute="top" secondItem="I6P-Hx-V51" secondAttribute="bottom" constant="16" id="aFf-SN-971"/>
+                            <constraint firstItem="iX5-Sv-5xY" firstAttribute="trailing" secondItem="iaN-Ba-CdJ" secondAttribute="trailing" constant="32" id="daJ-jL-KH2"/>
+                            <constraint firstItem="iX5-Sv-5xY" firstAttribute="trailing" secondItem="Mdp-fi-NVa" secondAttribute="trailing" constant="54" id="eu1-1x-OaO"/>
+                            <constraint firstItem="iX5-Sv-5xY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="I6P-Hx-V51" secondAttribute="trailing" constant="100" id="gwC-NK-ZAB"/>
+                            <constraint firstItem="I6P-Hx-V51" firstAttribute="leading" secondItem="iX5-Sv-5xY" secondAttribute="leading" constant="20" id="oCO-yG-see"/>
+                            <constraint firstItem="iaN-Ba-CdJ" firstAttribute="top" secondItem="S0B-Jj-drD" secondAttribute="bottom" constant="28" id="z1p-6W-43s"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="iX5-Sv-5xY"/>
                     </view>
                     <navigationItem key="navigationItem" id="0LT-0R-bSn"/>
@@ -163,37 +173,53 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Привет!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HEX-Jd-vnB">
-                                <rect key="frame" x="20" y="93" width="203" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Привет!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HEX-Jd-vnB">
+                                <rect key="frame" x="20" y="85" width="202.33333333333334" height="60"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="50"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Я Влад, мне 17, наверное🤔" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="faH-ls-Ef3">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Я Влад, мне 16, живу в Майкопе" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="faH-ls-Ef3">
                                 <rect key="frame" x="20" y="161" width="362" height="118"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="118" id="haS-pu-Rlj"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="41"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="подписывайся на мой инстагрм @pusiablin✌️" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D2r-M9-0ER">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="подписывайся на мой инстагрм @fsociety_vch ✌️" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D2r-M9-0ER">
                                 <rect key="frame" x="20" y="767" width="340" height="86"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="86" id="JfD-It-ztk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="26"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JAa-nn-vRE">
-                                <rect key="frame" x="20" y="287" width="362" height="472"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Программировать я начал в 6 классе. Знаю настолько много языков, что даже не помню их все. Написал кучу всего. Недавно начал учить Swift. Люблю сидеть в ТикТоке, быть первым и расставлять констрейнты</string>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JAa-nn-vRE">
+                                <rect key="frame" x="20" y="287" width="362" height="459.66666666666674"/>
+                                <string key="text">Программировать я начал в конце 6 класса на плюсах. В 8 классе стал призером региона всероса по инфе. Был в школах по олип проге: ЛКШ, ЛОШ/ЗОШ МФТИ, ШОП Иннополиса. Сейчас хочу занятся пром. разработкой.</string>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="35"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="faH-ls-Ef3" firstAttribute="leading" secondItem="HEX-Jd-vnB" secondAttribute="leading" id="1x4-lP-J3a"/>
+                            <constraint firstItem="VKl-B5-qQX" firstAttribute="trailing" secondItem="D2r-M9-0ER" secondAttribute="trailing" constant="54" id="6lh-6v-IlB"/>
+                            <constraint firstItem="D2r-M9-0ER" firstAttribute="top" secondItem="JAa-nn-vRE" secondAttribute="bottom" constant="20.333333333333258" id="K4F-4P-xme"/>
+                            <constraint firstItem="JAa-nn-vRE" firstAttribute="leading" secondItem="VKl-B5-qQX" secondAttribute="leading" constant="20" id="bb5-ip-ktc"/>
+                            <constraint firstItem="faH-ls-Ef3" firstAttribute="leading" secondItem="D2r-M9-0ER" secondAttribute="leading" id="kZ2-Aj-BnA"/>
+                            <constraint firstItem="JAa-nn-vRE" firstAttribute="top" secondItem="faH-ls-Ef3" secondAttribute="bottom" constant="8" id="kfx-uN-R2T"/>
+                            <constraint firstItem="faH-ls-Ef3" firstAttribute="top" secondItem="HEX-Jd-vnB" secondAttribute="bottom" constant="16" id="n9R-ou-Jjy"/>
+                            <constraint firstItem="faH-ls-Ef3" firstAttribute="trailing" secondItem="JAa-nn-vRE" secondAttribute="trailing" id="pa2-7N-Bju"/>
+                            <constraint firstItem="HEX-Jd-vnB" firstAttribute="top" secondItem="CwC-0d-t6j" secondAttribute="top" constant="85" id="qQs-xv-95k"/>
+                            <constraint firstItem="VKl-B5-qQX" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="HEX-Jd-vnB" secondAttribute="trailing" constant="100" id="st1-Ht-kee"/>
+                            <constraint firstItem="VKl-B5-qQX" firstAttribute="trailing" secondItem="JAa-nn-vRE" secondAttribute="trailing" constant="32" id="tzb-i5-ZSE"/>
+                            <constraint firstItem="HEX-Jd-vnB" firstAttribute="leading" secondItem="VKl-B5-qQX" secondAttribute="leading" constant="20" id="u8v-3V-99m"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="VKl-B5-qQX"/>
                     </view>
                     <navigationItem key="navigationItem" id="Ebg-kG-zz5"/>
