@@ -12,6 +12,7 @@ class DescriptionSecondViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        title = "Sasha"
 
         // Do any additional setup after loading the view.
     }
